@@ -1,0 +1,1 @@
+java -jar backend_aws.jar --spring.config.location=file:/etc/my-app/application.properties
