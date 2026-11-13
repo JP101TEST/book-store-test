@@ -1,2 +1,4 @@
 #!/bin/bash
-/home/ec2-user/app/back-end/jdk21/bin/java -jar backend_aws.jar
+mv ~/dist/* ~/app/back-end/
+
+~/app/back-end/jdk21/bin/java -jar ~/app/back-end/backend_aws.jar
